@@ -4,30 +4,30 @@ vendor/autoload.php
 vendor/composer/*
 vendor/laravel/*
 vendor/symfony/*
-/node_modules/
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/bootstrap/cache/*.php
+#/node_modules/
+#/public/build
+#/public/hot
+#/public/storage
+#/storage/*.key
+#/storage/pail
+#/bootstrap/cache/*.php
 
 # Environment files
-.env
+#.env
 .env.backup
-.env.production
-.htaccess
-storage/
-config/
-composer.json
-composer.lock
-artisan
-bootstrap/
+#.env.production
+#.htaccess
+#storage/
+#config/
+#composer.json
+#composer.lock
+#artisan
+#bootstrap/
 vite.config.js
 
 # Uploads (user generated files)
-public/uploads/*
-database/
+#public/uploads/*
+#database/
 
 # IDE / Editor
 /.idea
