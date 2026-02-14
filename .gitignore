@@ -1,0 +1,52 @@
+# Laravel Core
+/vendor/
+vendor/autoload.php
+vendor/composer/*
+vendor/laravel/*
+vendor/symfony/*
+/node_modules/
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+
+# Environment files
+.env
+.env.backup
+.env.production
+.htaccess
+storage/
+config/
+composer.json
+composer.lock
+artisan
+bootstrap/
+vite.config.js
+
+# Uploads (user generated files)
+public/uploads/*
+database/
+
+# IDE / Editor
+/.idea
+/.vscode
+/.fleet
+/.zed
+.phpactor.json
+
+# PHPUnit
+/.phpunit.cache
+.phpunit.result.cache
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Auth
+/auth.json
+
+# Homestead
+Homestead.json
+Homestead.yaml
